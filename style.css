@@ -45,7 +45,7 @@ header {
 }
 img.headone{
     height: auto; 
-    width: 30%; 
+    width: 70%; 
     margin-right: 10px;
 }
 
@@ -73,14 +73,14 @@ table {
     width: 100%;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
-    font-size: larger;
+    font-size: 20px;
     margin: 0;
     padding: 0;
-    border: 1px solid #333;
+    border: 5px solid #333;
 }
 
 th, td {
-    border: 1px solid #333; 
+    border: 5px solid #333; 
 }
 
 .image-container {
@@ -92,12 +92,12 @@ th, td {
 
 img.one {
     height: auto; 
-    width: 30%; 
-    margin-right: 10px;
+    width: 40%; 
+    margin-right: 60px;
 }
 img.two {
     height: auto; 
-    width: 30%; 
+    width: 40%; 
 
 }
 footer {

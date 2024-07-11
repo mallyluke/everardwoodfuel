@@ -4,13 +4,13 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #94A59C;
 }
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #333;
+    background-color: #3A6456;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -18,30 +18,30 @@ header {
 
 .header-content {
     display: flex;
-    align-items: center; /* This ensures the text and images are aligned vertically */
-    justify-content: center; /* Center content horizontally */
-    width: 100%; /* Ensure it spans the full width of the header */
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
 }
 
 
 .header-head {
-    display: flex; /* Corrected from 'flexbox' to 'flex' */
+    display: flex; 
     align-items: center;
-    justify-content: center; /* Center the text horizontally */
-    width: 100%; /* Optional: Adjust based on layout needs */
+    justify-content: center;
+    width: 100%; 
 }
 
 .header-contact{
-    display: flex; /* Corrected from 'flexbox' to 'flex' */
+    display: flex; 
     align-items: center;
-    justify-content: center; /* Center the text horizontally */
-    width: 100%; /* Optional: Adjust based on layout needs */
+    justify-content: center; 
+    width: 100%;
 }
 .header-images{
-    display: flex; /* Corrected from 'flexbox' to 'flex' */
+    display: flex; 
     align-items: center;
     justify-content: center;
-    width: 100%; /* Optional: Adjust based on layout needs */
+    width: 100%; 
 }
 
 main {
@@ -50,15 +50,18 @@ main {
 #family{
     padding: 5px;
     border: 1px solid #333;
+    background-color: #E7E7E8;
 
 }
 #Advantages{
     padding: 5px;
-    border: 1px solid #333; 
+    border: 1px solid #333;
+    background-color: #E7E7E8;
 }
 #price{
     padding: 5px;
     border: 1px solid #333; 
+    background-color: #E7E7E8;
 }
 
 table {
@@ -75,8 +78,25 @@ th, td {
     border: 1px solid #333; 
 }
 
+.image-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+img.one {
+    height: auto; 
+    width: 30%; 
+    margin-right: 10px;
+}
+img.two {
+    height: auto; 
+    width: 30%; 
+
+  
 footer {
-    background-color: #333;
+    background-color: #3A6456;
     color: white;
     text-align: center;
     padding: 10px;

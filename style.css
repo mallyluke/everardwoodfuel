@@ -1,33 +1,87 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
     padding: 0;
     background-color: #f4f4f4;
 }
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
-nav {
-    margin: 10px 0;
-    text-align: center;
+
+.header-content {
+    display: flex;
+    align-items: center; /* This ensures the text and images are aligned vertically */
+    justify-content: center; /* Center content horizontally */
+    width: 100%; /* Ensure it spans the full width of the header */
 }
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #333;
+
+
+.header-head {
+    display: flex; /* Corrected from 'flexbox' to 'flex' */
+    align-items: center;
+    justify-content: center; /* Center the text horizontally */
+    width: 100%; /* Optional: Adjust based on layout needs */
 }
+
+.header-contact{
+    display: flex; /* Corrected from 'flexbox' to 'flex' */
+    align-items: center;
+    justify-content: center; /* Center the text horizontally */
+    width: 100%; /* Optional: Adjust based on layout needs */
+}
+.header-images{
+    display: flex; /* Corrected from 'flexbox' to 'flex' */
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Optional: Adjust based on layout needs */
+}
+
 main {
     padding: 20px;
 }
+#family{
+    padding: 5px;
+    border: 1px solid #333;
+
+}
+#Advantages{
+    padding: 5px;
+    border: 1px solid #333; 
+}
+#price{
+    padding: 5px;
+    border: 1px solid #333; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #333;
+}
+
+th, td {
+    border: 1px solid #333; 
+}
+
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 10px 0;
-    position: absolute;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
     width: 100%;
     bottom: 0;
 }

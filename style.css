@@ -43,6 +43,11 @@ header {
     justify-content: center;
     width: 100%; 
 }
+img.headone{
+    height: auto; 
+    width: 30%; 
+    margin-right: 10px;
+}
 
 main {
     padding: 20px;
@@ -94,7 +99,7 @@ img.two {
     height: auto; 
     width: 30%; 
 
-  
+}
 footer {
     background-color: #3A6456;
     color: white;
